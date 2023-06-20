@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class main {
     public static void main(String []args) throws IOException{
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Converter from:");
+        System.out.println("Convert from:");
         System.out.println("(1) Canada \n(2) USA \n(3) Euro \n(4) Brazil");
 
         String[] currency = {"CAD", "USD", "EUR", "BRL"};
