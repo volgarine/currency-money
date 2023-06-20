@@ -30,7 +30,7 @@ public class main {
 
         Request request = new Request.Builder()
                 .url("https://api.apilayer.com/fixer/convert?to="+currency[currencyTo-1]+"&from="+currency[currencyFrom-1]+"&amount="+amount)
-                .addHeader("apikey", "0hzrV7LfPQKIE617SztsBBX9C4ERUM8i")
+                .addHeader("apikey", "My free API KEY from https://fixer.io")
                 .method("GET",null)
                 .build();
         Response response = client.newCall(request).execute();
