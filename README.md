@@ -8,8 +8,10 @@ I ran in Java with IntelliJ IDE.
 
 ### **I did it as follows:**
 **1)** I registered on https://fixer.io and **I got my Currency API Key**
+
 **2)** I created a project in IntelliJ as follows:
     - File -> New -> Project -> Maven -> Project SDK: corretto-11
+    
 **3)** I edited the POM.XML file
     - Open POM.xml -> paste snippits -> Reimport All Maven Projects:
     
