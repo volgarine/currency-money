@@ -1,17 +1,19 @@
 # **In this repository I show how to use a Free API from https://fixer.io to convert currency.**
 
 _I live in Canada and I like to know how much the Canadian dollar (CAD) is in Brazilian currency (BRL)._
+
 You can also run with **from terminal (BASH), JSON (Postman)**, but I did it in JAVA as part of my studies to become a JAVA Backend coder.
 
 I ran in Java with IntelliJ IDE.
 
 ### **I did it as follows:**
+```sh
 **1)** I registered on https://fixer.io and **I got my Currency API Key**
 **2)** I created a project in IntelliJ as follows:
     - File -> New -> Project -> Maven -> Project SDK: corretto-11
 **3)** I edited the POM.XML file
     - Open POM.xml -> paste snippits -> Reimport All Maven Projects:
-
+``
 > <dependencies>
      <dependency>
          <groupId>com.squareup.okhttp3</groupId>
