@@ -2,11 +2,11 @@
 
 _I live in Canada and I like to know how much the Canadian dollar (CAD) is in Brazilian currency (BRL)._
 
-You can also run with **from terminal (BASH), JSON (Postman)**, but I did it in JAVA as part of my studies to become a JAVA Backend coder.
+You can also run with **from terminal (BASH), JSON (Postman)**, but I made it with JAVA as part of my studies for the future to become a JAVA Backend coder.
 
 I ran in Java with IntelliJ IDE.
 
-### **I did it as follows:**
+### **I made it as follows:**
 **1)** I registered on https://fixer.io and **I got my Currency API Key**
 
 **2)** I created a project in IntelliJ as follows:
